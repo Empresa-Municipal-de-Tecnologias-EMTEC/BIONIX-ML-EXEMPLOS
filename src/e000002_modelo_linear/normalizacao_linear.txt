@@ -1,0 +1,6 @@
+tipo_entradas_id=2
+media_entradas=66.333336,2.3333333,7.0
+desvio_entradas=21.566435,0.94280905,5.228129
+tipo_alvo_id=2
+media_alvo=287.8889
+desvio_alvo=99.03136

@@ -1,0 +1,174 @@
+
+============================================================
+EXECUTANDO EXEMPLOS DO BIONIX
+============================================================
+
+[1/8] Exemplo 1: Testes do Núcleo (exemplo)...
+
+
+[2/8] Exemplo 2: Modelo Linear com CSV e persistência...
+
+
+[3/8] Exemplo 3: Espirais intercaladas com BMP + autograd + MLP...
+
+
+[4/8] Exemplo 4: Reconhecimento de dígitos 0-9 com MLP...
+
+
+[5/8] Exemplo 5: Reconhecimento de dígitos 0-9 com MLP (CUDA)...
+
+
+[6/8] Exemplo 6: Embedding com BPE a partir de .txt...
+
+
+[7/8] Exemplo 7: GPT texto (treino + inferência em conversa/instruções/ferramentas)...
+
+
+[8/8] Exemplo 8: Reconhecimento facial com bloco CNN...
+--- Exemplo e000008: reconhecimento_facial (detector + reconhecedor PoC) ---
+Construindo dataset detector (crops 64 x 100 )...
+Amostras detector: 38 | Features: 6400
+Treinando detector (PoC) com reduce-on-plateau...
+Epoca 0 | MSE: 0.23567534
+Epoca 20 | MSE: 0.17559226
+Epoca 40 | MSE: 0.14025497
+Epoca 60 | MSE: 0.11759172
+Epoca 80 | MSE: 0.102098316
+Epoca 99 | MSE: 0.09133411
+Loss apos + 100 epocas (lr= 0.05 ): 0.09133411
+Epoca 0 | MSE: 0.090841114
+Epoca 20 | MSE: 0.08215756
+Epoca 40 | MSE: 0.07523912
+Epoca 60 | MSE: 0.06954899
+Epoca 80 | MSE: 0.06473862
+Epoca 99 | MSE: 0.06077814
+Loss apos + 100 epocas (lr= 0.05 ): 0.06077814
+Epoca 0 | MSE: 0.060583793
+Epoca 20 | MSE: 0.05695242
+Epoca 40 | MSE: 0.053746287
+Epoca 60 | MSE: 0.05087703
+Epoca 80 | MSE: 0.048291434
+Epoca 99 | MSE: 0.04606314
+Loss apos + 100 epocas (lr= 0.05 ): 0.04606314
+Epoca 0 | MSE: 0.045951285
+Epoca 20 | MSE: 0.043805446
+Epoca 40 | MSE: 0.04181289
+Epoca 60 | MSE: 0.039957047
+Epoca 80 | MSE: 0.038225185
+Epoca 99 | MSE: 0.036684148
+Loss apos + 100 epocas (lr= 0.05 ): 0.036684148
+Epoca 0 | MSE: 0.03660572
+Epoca 20 | MSE: 0.035086
+Epoca 40 | MSE: 0.03365085
+Epoca 60 | MSE: 0.032294344
+Epoca 80 | MSE: 0.031011537
+Epoca 99 | MSE: 0.029857045
+Loss apos + 100 epocas (lr= 0.05 ): 0.029857045
+Epoca 0 | MSE: 0.029797949
+Epoca 20 | MSE: 0.028649252
+Epoca 40 | MSE: 0.027561449
+Epoca 60 | MSE: 0.026530826
+Epoca 80 | MSE: 0.025552398
+Epoca 99 | MSE: 0.024665559
+Loss apos + 100 epocas (lr= 0.05 ): 0.024665559
+Epoca 0 | MSE: 0.02462001
+Epoca 20 | MSE: 0.023731016
+Epoca 40 | MSE: 0.022883033
+Epoca 60 | MSE: 0.022073902
+Epoca 80 | MSE: 0.021301508
+Epoca 99 | MSE: 0.02060006
+Loss apos + 100 epocas (lr= 0.05 ): 0.02060006
+Epoca 0 | MSE: 0.02056398
+Epoca 20 | MSE: 0.019859455
+Epoca 40 | MSE: 0.019185604
+Epoca 60 | MSE: 0.018540854
+Epoca 80 | MSE: 0.017923783
+Epoca 99 | MSE: 0.017361924
+Loss apos + 100 epocas (lr= 0.05 ): 0.017361924
+Epoca 0 | MSE: 0.017332934
+Epoca 20 | MSE: 0.016767133
+Epoca 40 | MSE: 0.016225124
+Epoca 60 | MSE: 0.01570566
+Epoca 80 | MSE: 0.015207807
+Epoca 99 | MSE: 0.014753828
+Loss apos + 100 epocas (lr= 0.05 ): 0.014753828
+Epoca 0 | MSE: 0.014730477
+Epoca 20 | MSE: 0.014272669
+Epoca 40 | MSE: 0.013833482
+Epoca 60 | MSE: 0.013412121
+Epoca 80 | MSE: 0.013007623
+Epoca 99 | MSE: 0.012638368
+Loss apos + 100 epocas (lr= 0.05 ): 0.012638368
+Treino finalizado. Epocas treinadas: 1000 loss final: 0.012638368
+Construindo centroides de reconhecimento usando o mesmo extractor...
+Centroides calculados para 5 ids (posições de array).
+Centroides salvos em: exemplos/e000008_reconhecimento_facial/dataset/centroides.txt
+Representantes salvos em: exemplos/e000008_reconhecimento_facial/dataset/representantes.txt
+
+--- Inferência em imagens de teste (detector + reconhecedor) ---
+Imagem 0.bmp | deteccao: rosto | coords: 54 216 477 1107 | prob: 1.0
+Imagem 0.bmp | reconhecimento: label= 4 | distancia= 33.318684 | similaridade= 0.89474475 | mesma_pessoa= True | representante= exemplos/e000008_reconhecimento_facial/dataset/treino/4/0.bmp
+GT[ 0 ]: 223 637 855 1500 | Intersect: 120105 | Overlap%: 21.960571
+comparar_duas_fotos: caixa1= 54 216 477 1107 prob= 1.0
+comparar_duas_fotos: caixa2= 688 459 1587 2352 prob= 1.0
+comparar_duas_fotos: score= 0.81664914 same= True threshold= 0.7
+Comparacao com representante mesma label: exemplos/e000008_reconhecimento_facial/dataset/treino/4/0.bmp mesma= True score= 0.81664914
+comparar_duas_fotos: caixa1= 54 216 477 1107 prob= 1.0
+comparar_duas_fotos: caixa2= 270 756 693 1647 prob= 1.0
+comparar_duas_fotos: score= 0.83257264 same= True threshold= 0.7
+Comparacao com representante outra label: exemplos/e000008_reconhecimento_facial/dataset/treino/0/0.bmp mesma= True score= 0.83257264
+Overlap com GT (% da area do GT): 21.960571
+Imagem 1.bmp | deteccao: rosto | coords: 688 0 1357 1415 | prob: 1.0
+Imagem 1.bmp | reconhecimento: label= 4 | distancia= 22.45585 | similaridade= 0.9308256 | mesma_pessoa= True | representante= exemplos/e000008_reconhecimento_facial/dataset/treino/4/0.bmp
+GT[ 0 ]: 765 693 1613 1773 | Intersect: 428739 | Overlap%: 46.71535
+comparar_duas_fotos: caixa1= 688 0 1357 1415 prob= 1.0
+comparar_duas_fotos: caixa2= 688 459 1587 2352 prob= 1.0
+comparar_duas_fotos: score= 0.8275409 same= True threshold= 0.7
+Comparacao com representante mesma label: exemplos/e000008_reconhecimento_facial/dataset/treino/4/0.bmp mesma= True score= 0.8275409
+comparar_duas_fotos: caixa1= 688 0 1357 1415 prob= 1.0
+comparar_duas_fotos: caixa2= 270 756 693 1647 prob= 1.0
+comparar_duas_fotos: score= 0.8644472 same= True threshold= 0.7
+Comparacao com representante outra label: exemplos/e000008_reconhecimento_facial/dataset/treino/0/0.bmp mesma= True score= 0.8644472
+Overlap com GT (% da area do GT): 46.71535
+Imagem 2.bmp | deteccao: rosto | coords: 486 364 1017 1488 | prob: 0.8660628
+Imagem 2.bmp | reconhecimento: label= 4 | distancia= 29.985807 | similaridade= 0.9038371 | mesma_pessoa= True | representante= exemplos/e000008_reconhecimento_facial/dataset/treino/4/0.bmp
+GT[ 0 ]: 507 899 1149 1631 | Intersect: 301490 | Overlap%: 63.967293
+comparar_duas_fotos: caixa1= 486 364 1017 1488 prob= 0.8660628
+comparar_duas_fotos: caixa2= 688 459 1587 2352 prob= 1.0
+comparar_duas_fotos: score= 0.7871573 same= True threshold= 0.7
+Comparacao com representante mesma label: exemplos/e000008_reconhecimento_facial/dataset/treino/4/0.bmp mesma= True score= 0.7871573
+comparar_duas_fotos: caixa1= 486 364 1017 1488 prob= 0.8660628
+comparar_duas_fotos: caixa2= 270 756 693 1647 prob= 1.0
+comparar_duas_fotos: score= 0.8174165 same= True threshold= 0.7
+Comparacao com representante outra label: exemplos/e000008_reconhecimento_facial/dataset/treino/0/0.bmp mesma= True score= 0.8174165
+Overlap com GT (% da area do GT): 63.967293
+Imagem 3.bmp | deteccao: rosto | coords: 651 0 1501 1791 | prob: 1.0
+Imagem 3.bmp | reconhecimento: label= 0 | distancia= 33.923916 | similaridade= 0.8887983 | mesma_pessoa= True | representante= exemplos/e000008_reconhecimento_facial/dataset/treino/0/0.bmp
+GT[ 0 ]: 921 929 2073 2401 | Intersect: 501403 | Overlap%: 29.52262
+comparar_duas_fotos: caixa1= 651 0 1501 1791 prob= 1.0
+comparar_duas_fotos: caixa2= 270 756 693 1647 prob= 1.0
+comparar_duas_fotos: score= 0.86392957 same= True threshold= 0.7
+Comparacao com representante mesma label: exemplos/e000008_reconhecimento_facial/dataset/treino/0/0.bmp mesma= True score= 0.86392957
+comparar_duas_fotos: caixa1= 651 0 1501 1791 prob= 1.0
+comparar_duas_fotos: caixa2= 765 76 1434 1491 prob= 1.0
+comparar_duas_fotos: score= 0.91325486 same= True threshold= 0.7
+Comparacao com representante outra label: exemplos/e000008_reconhecimento_facial/dataset/treino/1/0.bmp mesma= True score= 0.91325486
+Overlap com GT (% da area do GT): 29.52262
+Imagem 4.bmp | deteccao: rosto | coords: 688 573 1587 1989 | prob: 1.0
+Imagem 4.bmp | reconhecimento: label= 4 | distancia= 9.495914 | similaridade= 0.9775292 | mesma_pessoa= True | representante= exemplos/e000008_reconhecimento_facial/dataset/treino/4/0.bmp
+GT[ 0 ]: 625 605 1761 2029 | Intersect: 1246500 | Overlap%: 76.93376
+comparar_duas_fotos: caixa1= 688 573 1587 1989 prob= 1.0
+comparar_duas_fotos: caixa2= 688 459 1587 2352 prob= 1.0
+comparar_duas_fotos: score= 0.8904573 same= True threshold= 0.7
+Comparacao com representante mesma label: exemplos/e000008_reconhecimento_facial/dataset/treino/4/0.bmp mesma= True score= 0.8904573
+comparar_duas_fotos: caixa1= 688 573 1587 1989 prob= 1.0
+comparar_duas_fotos: caixa2= 270 756 693 1647 prob= 1.0
+comparar_duas_fotos: score= 0.8885052 same= True threshold= 0.7
+Comparacao com representante outra label: exemplos/e000008_reconhecimento_facial/dataset/treino/0/0.bmp mesma= True score= 0.8885052
+Overlap com GT (% da area do GT): 76.93376
+--- Fim do exemplo e000008 ---
+
+============================================================
+CONCLUÍDO: EXEMPLOS
+============================================================
+

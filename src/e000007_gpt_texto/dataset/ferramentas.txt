@@ -1,0 +1,11 @@
+modo: ferramentas
+inicio: como listar arquivos de um diretorio no windows powershell?
+completar: use Get-ChildItem no caminho alvo e filtre por extensao quando necessario.
+---
+modo: ferramentas
+inicio: como confirmar se cuda esta ativo no projeto?
+completar: execute o smoke test cuda e verifique o nome da gpu detectada no log.
+---
+modo: ferramentas
+inicio: como buscar simbolos importantes no codigo?
+completar: combine busca semantica para contexto com busca textual para ocorrencias exatas por arquivo.

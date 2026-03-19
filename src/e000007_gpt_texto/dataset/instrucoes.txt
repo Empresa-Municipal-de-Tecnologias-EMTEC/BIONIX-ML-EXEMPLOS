@@ -1,0 +1,11 @@
+modo: instrucoes
+inicio: gere uma checklist de release para este framework.
+completar: checklist: testes, benchmark, validacao cuda, exemplos atualizados, changelog e plano de rollback.
+---
+modo: instrucoes
+inicio: explique em uma frase o objetivo do modulo de sessao.
+completar: o modulo de sessao organiza persistencia e offload para manter treino e inferencia escalaveis.
+---
+modo: instrucoes
+inicio: escreva um resumo tecnico do bloco transformer base.
+completar: o bloco aplica embedding, atencao causal multi-head, residual, layer norm e FFN com nova normalizacao.

@@ -1,0 +1,1186 @@
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:400:19: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+        centroides, representantes = _construir_centroides(dir_treino, bloco, altura, largura, tipo)
+        ~~~~~~~~~~^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:400:19: note: consider transferring the value with '^'
+        centroides, representantes = _construir_centroides(dir_treino, bloco, altura, largura, tipo)
+                  ^
+                   ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:400:19: note: you can copy it explicitly with '.copy()'
+        centroides, representantes = _construir_centroides(dir_treino, bloco, altura, largura, tipo)
+                  ^
+                   .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:400:19: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+        centroides, representantes = _construir_centroides(dir_treino, bloco, altura, largura, tipo)
+        ~~~~~~~~~~^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:400:19: note: consider transferring the value with '^'
+        centroides, representantes = _construir_centroides(dir_treino, bloco, altura, largura, tipo)
+                  ^
+                   ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:400:19: note: you can copy it explicitly with '.copy()'
+        centroides, representantes = _construir_centroides(dir_treino, bloco, altura, largura, tipo)
+                  ^
+                   .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:409:58: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    var ok_save = _salvar_centroides(caminho_centroides, centroides)
+                                                         ^~~~~~~~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:409:58: note: consider transferring the value with '^'
+    var ok_save = _salvar_centroides(caminho_centroides, centroides)
+                                                         ^
+                                                                   ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:409:58: note: you can copy it explicitly with '.copy()'
+    var ok_save = _salvar_centroides(caminho_centroides, centroides)
+                                                         ^
+                                                                   .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:416:65: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    var ok_rep = _salvar_representantes(caminho_representantes, representantes)
+                                                                ^~~~~~~~~~~~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:416:65: note: consider transferring the value with '^'
+    var ok_rep = _salvar_representantes(caminho_representantes, representantes)
+                                                                ^
+                                                                              ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:416:65: note: you can copy it explicitly with '.copy()'
+    var ok_rep = _salvar_representantes(caminho_representantes, representantes)
+                                                                ^
+                                                                              .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:445:74: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+            id_best, dist, box, prob = inferencia_imagem(caminho, bloco, centroides, altura, largura, tipo, 0.5)
+                                                                         ^~~~~~~~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:445:74: note: consider transferring the value with '^'
+            id_best, dist, box, prob = inferencia_imagem(caminho, bloco, centroides, altura, largura, tipo, 0.5)
+                                                                         ^
+                                                                                   ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:445:74: note: you can copy it explicitly with '.copy()'
+            id_best, dist, box, prob = inferencia_imagem(caminho, bloco, centroides, altura, largura, tipo, 0.5)
+                                                                         ^
+                                                                                   .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:445:20: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+            id_best, dist, box, prob = inferencia_imagem(caminho, bloco, centroides, altura, largura, tipo, 0.5)
+            ~~~~~~~^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:445:20: note: consider transferring the value with '^'
+            id_best, dist, box, prob = inferencia_imagem(caminho, bloco, centroides, altura, largura, tipo, 0.5)
+                   ^
+                    ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:445:20: note: you can copy it explicitly with '.copy()'
+            id_best, dist, box, prob = inferencia_imagem(caminho, bloco, centroides, altura, largura, tipo, 0.5)
+                   ^
+                    .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:456:38: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+        var crop_orig = _crop_matrix(img, box[0], box[1], box[2], box[3])
+                                     ^~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:456:38: note: consider transferring the value with '^'
+        var crop_orig = _crop_matrix(img, box[0], box[1], box[2], box[3])
+                                     ^
+                                        ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:456:38: note: you can copy it explicitly with '.copy()'
+        var crop_orig = _crop_matrix(img, box[0], box[1], box[2], box[3])
+                                     ^
+                                        .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:457:99: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+        var t_feat = _matriz_para_tensor_flat(graficos_pkg.redimensionar_matriz_grayscale_nearest(crop_orig, altura, largura), tipo)
+                                                                                                  ^~~~~~~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:457:99: note: consider transferring the value with '^'
+        var t_feat = _matriz_para_tensor_flat(graficos_pkg.redimensionar_matriz_grayscale_nearest(crop_orig, altura, largura), tipo)
+                                                                                                  ^
+                                                                                                           ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:457:99: note: you can copy it explicitly with '.copy()'
+        var t_feat = _matriz_para_tensor_flat(graficos_pkg.redimensionar_matriz_grayscale_nearest(crop_orig, altura, largura), tipo)
+                                                                                                  ^
+                                                                                                           .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:464:38: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+            var nvec = _l2_normalize(vec)
+                                     ^~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:464:38: note: consider transferring the value with '^'
+            var nvec = _l2_normalize(vec)
+                                     ^
+                                        ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:464:38: note: you can copy it explicitly with '.copy()'
+            var nvec = _l2_normalize(vec)
+                                     ^
+                                        .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:465:49: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+            var ncent = _l2_normalize(centroides[id_best])
+                                      ~~~~~~~~~~^~~~~~~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:465:49: note: consider transferring the value with '^'
+            var ncent = _l2_normalize(centroides[id_best])
+                                                ^
+                                                         ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:465:49: note: you can copy it explicitly with '.copy()'
+            var ncent = _l2_normalize(centroides[id_best])
+                                                ^
+                                                         .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:466:38: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+            sim = _cosine_similarity(nvec, ncent)
+                                     ^~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:466:38: note: consider transferring the value with '^'
+            sim = _cosine_similarity(nvec, ncent)
+                                     ^
+                                         ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:466:38: note: you can copy it explicitly with '.copy()'
+            sim = _cosine_similarity(nvec, ncent)
+                                     ^
+                                         .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:466:44: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+            sim = _cosine_similarity(nvec, ncent)
+                                           ^~~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:466:44: note: consider transferring the value with '^'
+            sim = _cosine_similarity(nvec, ncent)
+                                           ^
+                                                ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:466:44: note: you can copy it explicitly with '.copy()'
+            sim = _cosine_similarity(nvec, ncent)
+                                           ^
+                                                .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:481:33: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+                    var gt = gtb[gi]
+                             ~~~^~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:481:33: note: consider transferring the value with '^'
+                    var gt = gtb[gi]
+                                ^
+                                    ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:481:33: note: you can copy it explicitly with '.copy()'
+                    var gt = gtb[gi]
+                                ^
+                                    .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:482:52: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+                    var inter = _intersection_area(box, gt)
+                                                   ^~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:482:52: note: consider transferring the value with '^'
+                    var inter = _intersection_area(box, gt)
+                                                   ^
+                                                      ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:482:52: note: you can copy it explicitly with '.copy()'
+                    var inter = _intersection_area(box, gt)
+                                                   ^
+                                                      .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:482:57: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+                    var inter = _intersection_area(box, gt)
+                                                        ^~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:482:57: note: consider transferring the value with '^'
+                    var inter = _intersection_area(box, gt)
+                                                        ^
+                                                          ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:482:57: note: you can copy it explicitly with '.copy()'
+                    var inter = _intersection_area(box, gt)
+                                                        ^
+                                                          .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:500:52: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+                    var inter = _intersection_area(box, gtb[gi])
+                                                   ^~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:500:52: note: consider transferring the value with '^'
+                    var inter = _intersection_area(box, gtb[gi])
+                                                   ^
+                                                      ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:500:52: note: you can copy it explicitly with '.copy()'
+                    var inter = _intersection_area(box, gtb[gi])
+                                                   ^
+                                                      .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:500:60: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+                    var inter = _intersection_area(box, gtb[gi])
+                                                        ~~~^~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:500:60: note: consider transferring the value with '^'
+                    var inter = _intersection_area(box, gtb[gi])
+                                                           ^
+                                                               ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:500:60: note: you can copy it explicitly with '.copy()'
+                    var inter = _intersection_area(box, gtb[gi])
+                                                           ^
+                                                               .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:505:33: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+                    var gt = gtb[best_gt_idx]
+                             ~~~^~~~~~~~~~~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:505:33: note: consider transferring the value with '^'
+                    var gt = gtb[best_gt_idx]
+                                ^
+                                             ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:505:33: note: you can copy it explicitly with '.copy()'
+                    var gt = gtb[best_gt_idx]
+                                ^
+                                             .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:514:100: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+            var ok_same, score_same = comparar_duas_fotos(caminho, representantes[id_best], bloco, centroides, altura, largura, tipo, 0.7)
+                                                                                                   ^~~~~~~~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:514:100: note: consider transferring the value with '^'
+            var ok_same, score_same = comparar_duas_fotos(caminho, representantes[id_best], bloco, centroides, altura, largura, tipo, 0.7)
+                                                                                                   ^
+                                                                                                             ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:514:100: note: you can copy it explicitly with '.copy()'
+            var ok_same, score_same = comparar_duas_fotos(caminho, representantes[id_best], bloco, centroides, altura, largura, tipo, 0.7)
+                                                                                                   ^
+                                                                                                             .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:520:106: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+                var ok_diff, score_diff = comparar_duas_fotos(caminho, representantes[other_idx], bloco, centroides, altura, largura, tipo, 0.7)
+                                                                                                         ^~~~~~~~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:520:106: note: consider transferring the value with '^'
+                var ok_diff, score_diff = comparar_duas_fotos(caminho, representantes[other_idx], bloco, centroides, altura, largura, tipo, 0.7)
+                                                                                                         ^
+                                                                                                                   ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:520:106: note: you can copy it explicitly with '.copy()'
+                var ok_diff, score_diff = comparar_duas_fotos(caminho, representantes[other_idx], bloco, centroides, altura, largura, tipo, 0.7)
+                                                                                                         ^
+                                                                                                                   .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:690:78: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+        id1_tmp, dist1_tmp, box1, prob1 = inferencia_imagem(caminho1, bloco, centroides, altura, largura, tipo, 0.0)
+                                                                             ^~~~~~~~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:690:78: note: consider transferring the value with '^'
+        id1_tmp, dist1_tmp, box1, prob1 = inferencia_imagem(caminho1, bloco, centroides, altura, largura, tipo, 0.0)
+                                                                             ^
+                                                                                       ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:690:78: note: you can copy it explicitly with '.copy()'
+        id1_tmp, dist1_tmp, box1, prob1 = inferencia_imagem(caminho1, bloco, centroides, altura, largura, tipo, 0.0)
+                                                                             ^
+                                                                                       .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:690:16: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+        id1_tmp, dist1_tmp, box1, prob1 = inferencia_imagem(caminho1, bloco, centroides, altura, largura, tipo, 0.0)
+        ~~~~~~~^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:690:16: note: consider transferring the value with '^'
+        id1_tmp, dist1_tmp, box1, prob1 = inferencia_imagem(caminho1, bloco, centroides, altura, largura, tipo, 0.0)
+               ^
+                ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:690:16: note: you can copy it explicitly with '.copy()'
+        id1_tmp, dist1_tmp, box1, prob1 = inferencia_imagem(caminho1, bloco, centroides, altura, largura, tipo, 0.0)
+               ^
+                .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:699:78: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+        id2_tmp, dist2_tmp, box2, prob2 = inferencia_imagem(caminho2, bloco, centroides, altura, largura, tipo, 0.0)
+                                                                             ^~~~~~~~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:699:78: note: consider transferring the value with '^'
+        id2_tmp, dist2_tmp, box2, prob2 = inferencia_imagem(caminho2, bloco, centroides, altura, largura, tipo, 0.0)
+                                                                             ^
+                                                                                       ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:699:78: note: you can copy it explicitly with '.copy()'
+        id2_tmp, dist2_tmp, box2, prob2 = inferencia_imagem(caminho2, bloco, centroides, altura, largura, tipo, 0.0)
+                                                                             ^
+                                                                                       .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:699:16: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+        id2_tmp, dist2_tmp, box2, prob2 = inferencia_imagem(caminho2, bloco, centroides, altura, largura, tipo, 0.0)
+        ~~~~~~~^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:699:16: note: consider transferring the value with '^'
+        id2_tmp, dist2_tmp, box2, prob2 = inferencia_imagem(caminho2, bloco, centroides, altura, largura, tipo, 0.0)
+               ^
+                ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:699:16: note: you can copy it explicitly with '.copy()'
+        id2_tmp, dist2_tmp, box2, prob2 = inferencia_imagem(caminho2, bloco, centroides, altura, largura, tipo, 0.0)
+               ^
+                .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:711:30: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    var crop1 = _crop_matrix(img1, box1[0], box1[1], box1[2], box1[3])
+                             ^~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:711:30: note: consider transferring the value with '^'
+    var crop1 = _crop_matrix(img1, box1[0], box1[1], box1[2], box1[3])
+                             ^
+                                 ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:711:30: note: you can copy it explicitly with '.copy()'
+    var crop1 = _crop_matrix(img1, box1[0], box1[1], box1[2], box1[3])
+                             ^
+                                 .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:712:30: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    var crop2 = _crop_matrix(img2, box2[0], box2[1], box2[2], box2[3])
+                             ^~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:712:30: note: consider transferring the value with '^'
+    var crop2 = _crop_matrix(img2, box2[0], box2[1], box2[2], box2[3])
+                             ^
+                                 ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:712:30: note: you can copy it explicitly with '.copy()'
+    var crop2 = _crop_matrix(img2, box2[0], box2[1], box2[2], box2[3])
+                             ^
+                                 .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:713:91: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    var t1 = _matriz_para_tensor_flat(graficos_pkg.redimensionar_matriz_grayscale_nearest(crop1, altura, largura), tipo)
+                                                                                          ^~~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:713:91: note: consider transferring the value with '^'
+    var t1 = _matriz_para_tensor_flat(graficos_pkg.redimensionar_matriz_grayscale_nearest(crop1, altura, largura), tipo)
+                                                                                          ^
+                                                                                               ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:713:91: note: you can copy it explicitly with '.copy()'
+    var t1 = _matriz_para_tensor_flat(graficos_pkg.redimensionar_matriz_grayscale_nearest(crop1, altura, largura), tipo)
+                                                                                          ^
+                                                                                               .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:714:91: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    var t2 = _matriz_para_tensor_flat(graficos_pkg.redimensionar_matriz_grayscale_nearest(crop2, altura, largura), tipo)
+                                                                                          ^~~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:714:91: note: consider transferring the value with '^'
+    var t2 = _matriz_para_tensor_flat(graficos_pkg.redimensionar_matriz_grayscale_nearest(crop2, altura, largura), tipo)
+                                                                                          ^
+                                                                                               ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:714:91: note: you can copy it explicitly with '.copy()'
+    var t2 = _matriz_para_tensor_flat(graficos_pkg.redimensionar_matriz_grayscale_nearest(crop2, altura, largura), tipo)
+                                                                                          ^
+                                                                                               .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:725:28: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    var n1 = _l2_normalize(v1)
+                           ^~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:725:28: note: consider transferring the value with '^'
+    var n1 = _l2_normalize(v1)
+                           ^
+                             ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:725:28: note: you can copy it explicitly with '.copy()'
+    var n1 = _l2_normalize(v1)
+                           ^
+                             .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:726:28: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    var n2 = _l2_normalize(v2)
+                           ^~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:726:28: note: consider transferring the value with '^'
+    var n2 = _l2_normalize(v2)
+                           ^
+                             ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:726:28: note: you can copy it explicitly with '.copy()'
+    var n2 = _l2_normalize(v2)
+                           ^
+                             .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:727:36: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    var score = _cosine_similarity(n1, n2)
+                                   ^~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:727:36: note: consider transferring the value with '^'
+    var score = _cosine_similarity(n1, n2)
+                                   ^
+                                     ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:727:36: note: you can copy it explicitly with '.copy()'
+    var score = _cosine_similarity(n1, n2)
+                                   ^
+                                     .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:727:40: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    var score = _cosine_similarity(n1, n2)
+                                       ^~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:727:40: note: consider transferring the value with '^'
+    var score = _cosine_similarity(n1, n2)
+                                       ^
+                                         ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:727:40: note: you can copy it explicitly with '.copy()'
+    var score = _cosine_similarity(n1, n2)
+                                       ^
+                                         .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:790:15: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    var img = img_orig
+              ^~~~~~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:790:15: note: consider transferring the value with '^'
+    var img = img_orig
+              ^
+                      ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:790:15: note: you can copy it explicitly with '.copy()'
+    var img = img_orig
+              ^
+                      .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:793:39: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+        img, scale = _resize_if_wider(img_orig, 128)
+                                      ^~~~~~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:793:39: note: consider transferring the value with '^'
+        img, scale = _resize_if_wider(img_orig, 128)
+                                      ^
+                                              ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:793:39: note: you can copy it explicitly with '.copy()'
+        img, scale = _resize_if_wider(img_orig, 128)
+                                      ^
+                                              .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:793:12: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+        img, scale = _resize_if_wider(img_orig, 128)
+        ~~~^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:793:12: note: consider transferring the value with '^'
+        img, scale = _resize_if_wider(img_orig, 128)
+           ^
+            ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:793:12: note: you can copy it explicitly with '.copy()'
+        img, scale = _resize_if_wider(img_orig, 128)
+           ^
+            .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:795:15: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+        img = img_orig
+              ^~~~~~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:795:15: note: consider transferring the value with '^'
+        img = img_orig
+              ^
+                      ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:795:15: note: you can copy it explicitly with '.copy()'
+        img = img_orig
+              ^
+                      .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:798:48: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    var box_res, prob = _detectar_melhor_caixa(img, bloco, altura, largura, tipo)
+                                               ^~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:798:48: note: consider transferring the value with '^'
+    var box_res, prob = _detectar_melhor_caixa(img, bloco, altura, largura, tipo)
+                                               ^
+                                                  ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:798:48: note: you can copy it explicitly with '.copy()'
+    var box_res, prob = _detectar_melhor_caixa(img, bloco, altura, largura, tipo)
+                                               ^
+                                                  .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:798:16: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    var box_res, prob = _detectar_melhor_caixa(img, bloco, altura, largura, tipo)
+        ~~~~~~~^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:798:16: note: consider transferring the value with '^'
+    var box_res, prob = _detectar_melhor_caixa(img, bloco, altura, largura, tipo)
+               ^
+                ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:798:16: note: you can copy it explicitly with '.copy()'
+    var box_res, prob = _detectar_melhor_caixa(img, bloco, altura, largura, tipo)
+               ^
+                .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:810:29: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    var crop = _crop_matrix(img_orig, box[0], box[1], box[2], box[3])
+                            ^~~~~~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:810:29: note: consider transferring the value with '^'
+    var crop = _crop_matrix(img_orig, box[0], box[1], box[2], box[3])
+                            ^
+                                    ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:810:29: note: you can copy it explicitly with '.copy()'
+    var crop = _crop_matrix(img_orig, box[0], box[1], box[2], box[3])
+                            ^
+                                    .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:811:90: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    var t = _matriz_para_tensor_flat(graficos_pkg.redimensionar_matriz_grayscale_nearest(crop, altura, largura), tipo)
+                                                                                         ^~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:811:90: note: consider transferring the value with '^'
+    var t = _matriz_para_tensor_flat(graficos_pkg.redimensionar_matriz_grayscale_nearest(crop, altura, largura), tipo)
+                                                                                         ^
+                                                                                             ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:811:90: note: you can copy it explicitly with '.copy()'
+    var t = _matriz_para_tensor_flat(graficos_pkg.redimensionar_matriz_grayscale_nearest(crop, altura, largura), tipo)
+                                                                                         ^
+                                                                                             .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:816:43: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    var id_best, dist = _argmin_distancia(vec, centroides)
+                                          ^~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:816:43: note: consider transferring the value with '^'
+    var id_best, dist = _argmin_distancia(vec, centroides)
+                                          ^
+                                             ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:816:43: note: you can copy it explicitly with '.copy()'
+    var id_best, dist = _argmin_distancia(vec, centroides)
+                                          ^
+                                             .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:816:48: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    var id_best, dist = _argmin_distancia(vec, centroides)
+                                               ^~~~~~~~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:816:48: note: consider transferring the value with '^'
+    var id_best, dist = _argmin_distancia(vec, centroides)
+                                               ^
+                                                         ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:816:48: note: you can copy it explicitly with '.copy()'
+    var id_best, dist = _argmin_distancia(vec, centroides)
+                                               ^
+                                                         .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:817:27: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    return id_best, dist, box, prob
+                          ^~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:817:27: note: consider transferring the value with '^'
+    return id_best, dist, box, prob
+                          ^
+                             ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:817:27: note: you can copy it explicitly with '.copy()'
+    return id_best, dist, box, prob
+                          ^
+                             .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/camadas/cnn/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/camadas/cnn/__init__.mojo:1:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/camadas/cnn/cnn.mojo:192:43: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+            var conv = _conv2d_valid_relu(img, bloco.altura, bloco.largura, bloco.kernels[f], bloco.tipo_computacao)
+                                          ^~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/camadas/cnn/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/camadas/cnn/__init__.mojo:1:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/camadas/cnn/cnn.mojo:192:43: note: consider transferring the value with '^'
+            var conv = _conv2d_valid_relu(img, bloco.altura, bloco.largura, bloco.kernels[f], bloco.tipo_computacao)
+                                          ^
+                                             ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/camadas/cnn/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/camadas/cnn/__init__.mojo:1:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/camadas/cnn/cnn.mojo:192:43: note: you can copy it explicitly with '.copy()'
+            var conv = _conv2d_valid_relu(img, bloco.altura, bloco.largura, bloco.kernels[f], bloco.tipo_computacao)
+                                          ^
+                                             .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/camadas/cnn/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/camadas/cnn/__init__.mojo:1:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/camadas/cnn/cnn.mojo:193:44: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+            var pool = _avgpool2x2_stride2(conv, conv_h, conv_w, bloco.tipo_computacao)
+                                           ^~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/camadas/cnn/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/camadas/cnn/__init__.mojo:1:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/camadas/cnn/cnn.mojo:193:44: note: consider transferring the value with '^'
+            var pool = _avgpool2x2_stride2(conv, conv_h, conv_w, bloco.tipo_computacao)
+                                           ^
+                                               ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/camadas/cnn/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/camadas/cnn/__init__.mojo:1:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/camadas/cnn/cnn.mojo:193:44: note: you can copy it explicitly with '.copy()'
+            var pool = _avgpool2x2_stride2(conv, conv_h, conv_w, bloco.tipo_computacao)
+                                           ^
+                                               .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/camadas/cnn/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/camadas/cnn/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/camadas/cnn/cnn.mojo:37:
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/computacao/captura_camadas.mojo:2:
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/computacao/storage_sessao.mojo:1:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/computacao/sessao.mojo:20:104: warning: transfer from an owned value has no effect and can be removed
+        return DriverSessao(self.modo, self.diretorio_disco, self.modo_kvcache, self.diretorio_kvcache)^
+                                                                                                       ^
+                                                                                                       
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:15:16: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+        return img, 1.0
+               ^~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:15:16: note: consider transferring the value with '^'
+        return img, 1.0
+               ^
+                  ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:15:16: note: you can copy it explicitly with '.copy()'
+        return img, 1.0
+               ^
+                  .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:18:16: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+        return img, 1.0
+               ^~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:18:16: note: consider transferring the value with '^'
+        return img, 1.0
+               ^
+                  ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:18:16: note: you can copy it explicitly with '.copy()'
+        return img, 1.0
+               ^
+                  .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:21:71: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    var resized = graficos_pkg.redimensionar_matriz_grayscale_nearest(img, new_h, new_w)
+                                                                      ^~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:21:71: note: consider transferring the value with '^'
+    var resized = graficos_pkg.redimensionar_matriz_grayscale_nearest(img, new_h, new_w)
+                                                                      ^
+                                                                         ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:21:71: note: you can copy it explicitly with '.copy()'
+    var resized = graficos_pkg.redimensionar_matriz_grayscale_nearest(img, new_h, new_w)
+                                                                      ^
+                                                                         .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:23:12: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    return resized, scale
+           ^~~~~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:23:12: note: consider transferring the value with '^'
+    return resized, scale
+           ^
+                  ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:23:12: note: you can copy it explicitly with '.copy()'
+    return resized, scale
+           ^
+                  .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:139:51: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+                img, img_scale = _resize_if_wider(img, 128)
+                                                  ^~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:139:51: note: consider transferring the value with '^'
+                img, img_scale = _resize_if_wider(img, 128)
+                                                  ^
+                                                     ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:139:51: note: you can copy it explicitly with '.copy()'
+                img, img_scale = _resize_if_wider(img, 128)
+                                                  ^
+                                                     .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:139:20: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+                img, img_scale = _resize_if_wider(img, 128)
+                ~~~^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:139:20: note: consider transferring the value with '^'
+                img, img_scale = _resize_if_wider(img, 128)
+                   ^
+                    ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:139:20: note: you can copy it explicitly with '.copy()'
+                img, img_scale = _resize_if_wider(img, 128)
+                   ^
+                    .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:150:41: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+                var crop = _crop_matrix(img, b[0], b[1], b[2], b[3])
+                                        ^~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:150:41: note: consider transferring the value with '^'
+                var crop = _crop_matrix(img, b[0], b[1], b[2], b[3])
+                                        ^
+                                           ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:150:41: note: you can copy it explicitly with '.copy()'
+                var crop = _crop_matrix(img, b[0], b[1], b[2], b[3])
+                                        ^
+                                           .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:153:83: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+                var resized = graficos_pkg.redimensionar_matriz_grayscale_nearest(crop, altura_alvo, largura_alvo)
+                                                                                  ^~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:153:83: note: consider transferring the value with '^'
+                var resized = graficos_pkg.redimensionar_matriz_grayscale_nearest(crop, altura_alvo, largura_alvo)
+                                                                                  ^
+                                                                                      ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:153:83: note: you can copy it explicitly with '.copy()'
+                var resized = graficos_pkg.redimensionar_matriz_grayscale_nearest(crop, altura_alvo, largura_alvo)
+                                                                                  ^
+                                                                                      .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:183:42: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+                var cropn = _crop_matrix(img, box[0], box[1], box[2], box[3])
+                                         ^~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:183:42: note: consider transferring the value with '^'
+                var cropn = _crop_matrix(img, box[0], box[1], box[2], box[3])
+                                         ^
+                                            ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:183:42: note: you can copy it explicitly with '.copy()'
+                var cropn = _crop_matrix(img, box[0], box[1], box[2], box[3])
+                                         ^
+                                            .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:186:84: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+                var resizedn = graficos_pkg.redimensionar_matriz_grayscale_nearest(cropn, altura_alvo, largura_alvo)
+                                                                                   ^~~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:186:84: note: consider transferring the value with '^'
+                var resizedn = graficos_pkg.redimensionar_matriz_grayscale_nearest(cropn, altura_alvo, largura_alvo)
+                                                                                   ^
+                                                                                        ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:186:84: note: you can copy it explicitly with '.copy()'
+                var resizedn = graficos_pkg.redimensionar_matriz_grayscale_nearest(cropn, altura_alvo, largura_alvo)
+                                                                                   ^
+                                                                                        .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:279:51: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+                img, img_scale = _resize_if_wider(img, 128)
+                                                  ^~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:279:51: note: consider transferring the value with '^'
+                img, img_scale = _resize_if_wider(img, 128)
+                                                  ^
+                                                     ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:279:51: note: you can copy it explicitly with '.copy()'
+                img, img_scale = _resize_if_wider(img, 128)
+                                                  ^
+                                                     .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:279:20: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+                img, img_scale = _resize_if_wider(img, 128)
+                ~~~^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:279:20: note: consider transferring the value with '^'
+                img, img_scale = _resize_if_wider(img, 128)
+                   ^
+                    ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:279:20: note: you can copy it explicitly with '.copy()'
+                img, img_scale = _resize_if_wider(img, 128)
+                   ^
+                    .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:285:27: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+            var b = bboxes[0]
+                    ~~~~~~^~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:285:27: note: consider transferring the value with '^'
+            var b = bboxes[0]
+                          ^
+                             ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:285:27: note: you can copy it explicitly with '.copy()'
+            var b = bboxes[0]
+                          ^
+                             .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:286:37: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+            var crop = _crop_matrix(img, b[0], b[1], b[2], b[3])
+                                    ^~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:286:37: note: consider transferring the value with '^'
+            var crop = _crop_matrix(img, b[0], b[1], b[2], b[3])
+                                    ^
+                                       ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:286:37: note: you can copy it explicitly with '.copy()'
+            var crop = _crop_matrix(img, b[0], b[1], b[2], b[3])
+                                    ^
+                                       .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:289:79: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+            var resized = graficos_pkg.redimensionar_matriz_grayscale_nearest(crop, altura_alvo, largura_alvo)
+                                                                              ^~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:289:79: note: consider transferring the value with '^'
+            var resized = graficos_pkg.redimensionar_matriz_grayscale_nearest(crop, altura_alvo, largura_alvo)
+                                                                              ^
+                                                                                  ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:289:79: note: you can copy it explicitly with '.copy()'
+            var resized = graficos_pkg.redimensionar_matriz_grayscale_nearest(crop, altura_alvo, largura_alvo)
+                                                                              ^
+                                                                                  .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:291:46: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+            var t = _matriz_para_tensor_flat(resized, tipo)
+                                             ^~~~~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:291:46: note: consider transferring the value with '^'
+            var t = _matriz_para_tensor_flat(resized, tipo)
+                                             ^
+                                                    ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:291:46: note: you can copy it explicitly with '.copy()'
+            var t = _matriz_para_tensor_flat(resized, tipo)
+                                             ^
+                                                    .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:327:27: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+        var c = centroides[i]
+                ~~~~~~~~~~^~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:327:27: note: consider transferring the value with '^'
+        var c = centroides[i]
+                          ^
+                             ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:327:27: note: you can copy it explicitly with '.copy()'
+        var c = centroides[i]
+                          ^
+                             .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:593:45: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+                    var crop = _crop_matrix(img, x, y, x + rw - 1, y + rh - 1)
+                                            ^~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:593:45: note: consider transferring the value with '^'
+                    var crop = _crop_matrix(img, x, y, x + rw - 1, y + rh - 1)
+                                            ^
+                                               ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:593:45: note: you can copy it explicitly with '.copy()'
+                    var crop = _crop_matrix(img, x, y, x + rw - 1, y + rh - 1)
+                                            ^
+                                               .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:596:87: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+                    var resized = graficos_pkg.redimensionar_matriz_grayscale_nearest(crop, altura, largura)
+                                                                                      ^~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:596:87: note: consider transferring the value with '^'
+                    var resized = graficos_pkg.redimensionar_matriz_grayscale_nearest(crop, altura, largura)
+                                                                                      ^
+                                                                                          ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:596:87: note: you can copy it explicitly with '.copy()'
+                    var resized = graficos_pkg.redimensionar_matriz_grayscale_nearest(crop, altura, largura)
+                                                                                      ^
+                                                                                          .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:597:54: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+                    var t = _matriz_para_tensor_flat(resized, tipo)
+                                                     ^~~~~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:597:54: note: consider transferring the value with '^'
+                    var t = _matriz_para_tensor_flat(resized, tipo)
+                                                     ^
+                                                            ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:597:54: note: you can copy it explicitly with '.copy()'
+                    var t = _matriz_para_tensor_flat(resized, tipo)
+                                                     ^
+                                                            .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:613:25: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    var keep_idx = _nms(boxes, scores, 0.3)
+                        ^~~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:613:25: note: consider transferring the value with '^'
+    var keep_idx = _nms(boxes, scores, 0.3)
+                        ^
+                             ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:613:25: note: you can copy it explicitly with '.copy()'
+    var keep_idx = _nms(boxes, scores, 0.3)
+                        ^
+                             .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:613:32: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    var keep_idx = _nms(boxes, scores, 0.3)
+                               ^~~~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:613:32: note: consider transferring the value with '^'
+    var keep_idx = _nms(boxes, scores, 0.3)
+                               ^
+                                     ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:613:32: note: you can copy it explicitly with '.copy()'
+    var keep_idx = _nms(boxes, scores, 0.3)
+                               ^
+                                     .copy()
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:629:12: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    return best_box, best_score
+           ^~~~~~~~
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:629:12: note: consider transferring the value with '^'
+    return best_box, best_score
+           ^
+                   ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:629:12: note: you can copy it explicitly with '.copy()'
+    return best_box, best_score
+           ^
+                   .copy()
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:20:15: warning: 'except' logic is unreachable, try doesn't raise an exception
+        print("Exemplo 1 falhou; continuando com os próximos exemplos.")
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:27:15: warning: 'except' logic is unreachable, try doesn't raise an exception
+        print("Exemplo 2 falhou; continuando com os próximos exemplos.")
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:34:15: warning: 'except' logic is unreachable, try doesn't raise an exception
+        print("Exemplo 3 falhou; continuando com os próximos exemplos.")
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:41:15: warning: 'except' logic is unreachable, try doesn't raise an exception
+        print("Exemplo 4 falhou; continuando com os próximos exemplos.")
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:48:15: warning: 'except' logic is unreachable, try doesn't raise an exception
+        print("Exemplo 5 falhou; continuando com os próximos exemplos.")
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:55:15: warning: 'except' logic is unreachable, try doesn't raise an exception
+        print("Exemplo 6 falhou; continuando com os próximos exemplos.")
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:62:15: warning: 'except' logic is unreachable, try doesn't raise an exception
+        print("Exemplo 7 falhou; continuando com os próximos exemplos.")
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:46:26: warning: 'except' logic is unreachable, try doesn't raise an exception
+                b.append(0)
+                         ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:141:29: warning: 'except' logic is unreachable, try doesn't raise an exception
+                img_scale = 1.0
+                            ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:281:29: warning: 'except' logic is unreachable, try doesn't raise an exception
+                img_scale = 1.0
+                            ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:489:19: warning: 'except' logic is unreachable, try doesn't raise an exception
+            print("GT: falha ao ler bboxes de:", caminho_txt)
+                  ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:510:31: warning: 'except' logic is unreachable, try doesn't raise an exception
+            gt_over_percent = -1.0
+                              ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:795:15: warning: 'except' logic is unreachable, try doesn't raise an exception
+        img = img_orig
+              ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/camadas/cnn/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/camadas/cnn/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/camadas/cnn/cnn.mojo:37:
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/computacao/captura_camadas.mojo:2:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/computacao/storage_sessao.mojo:70:16: warning: 'except' logic is unreachable, try doesn't raise an exception
+        return False
+               ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:29:30: warning: assignment to 'linhas' was never used; assign to '_' instead?
+    var linhas = List[String]()
+                             ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:137:38: warning: assignment to 'img_scale' was never used; assign to '_' instead?
+            var img_scale: Float32 = 1.0
+                                     ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:131:42: warning: assignment to 'img' was never used; assign to '_' instead?
+            var img = List[List[Float32]]()
+                                         ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:121:36: warning: assignment to 'arquivos' was never used; assign to '_' instead?
+        var arquivos = List[String]()
+                                   ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:111:31: warning: assignment to 'classes' was never used; assign to '_' instead?
+    var classes = List[String]()
+                              ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:277:38: warning: assignment to 'img_scale' was never used; assign to '_' instead?
+            var img_scale: Float32 = 1.0
+                                     ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:271:42: warning: assignment to 'img' was never used; assign to '_' instead?
+            var img = List[List[Float32]]()
+                                         ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:260:36: warning: assignment to 'arquivos' was never used; assign to '_' instead?
+        var arquivos = List[String]()
+                                   ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:251:18: warning: assignment to 'id' was never used; assign to '_' instead?
+        var id = 0
+                 ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:238:31: warning: assignment to 'classes' was never used; assign to '_' instead?
+    var classes = List[String]()
+                              ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:443:29: warning: assignment to 'prob' was never used; assign to '_' instead?
+        var prob: Float32 = 0.0
+                            ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:442:39: warning: assignment to 'box' was never used; assign to '_' instead?
+        var box: List[Int] = List[Int]()
+                                      ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:441:29: warning: assignment to 'dist' was never used; assign to '_' instead?
+        var dist: Float32 = 0.0
+                            ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:440:28: warning: assignment to 'id_best' was never used; assign to '_' instead?
+        var id_best: Int = -1
+                           ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:434:38: warning: assignment to 'img' was never used; assign to '_' instead?
+        var img = List[List[Float32]]()
+                                     ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:397:41: warning: assignment to 'centroides' was never used; assign to '_' instead?
+    var centroides = List[List[Float32]]()
+                                        ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:398:38: warning: assignment to 'representantes' was never used; assign to '_' instead?
+    var representantes = List[String]()
+                                     ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:423:38: warning: assignment to 'arquivos_teste' was never used; assign to '_' instead?
+    var arquivos_teste = List[String]()
+                                     ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:671:35: warning: assignment to 'img1' was never used; assign to '_' instead?
+    var img1 = List[List[Float32]]()
+                                  ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:672:35: warning: assignment to 'img2' was never used; assign to '_' instead?
+    var img2 = List[List[Float32]]()
+                                  ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:685:24: warning: assignment to 'id1_tmp' was never used; assign to '_' instead?
+    var id1_tmp: Int = -1
+                       ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:686:30: warning: assignment to 'dist1_tmp' was never used; assign to '_' instead?
+    var dist1_tmp: Float32 = 0.0
+                             ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:687:25: warning: assignment to 'box1' was never used; assign to '_' instead?
+    var box1 = List[Int]()
+                        ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:690:16: warning: assignment to 'id1_tmp' was never used; assign to '_' instead?
+        id1_tmp, dist1_tmp, box1, prob1 = inferencia_imagem(caminho1, bloco, centroides, altura, largura, tipo, 0.0)
+               ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:690:16: warning: assignment to 'dist1_tmp' was never used; assign to '_' instead?
+        id1_tmp, dist1_tmp, box1, prob1 = inferencia_imagem(caminho1, bloco, centroides, altura, largura, tipo, 0.0)
+               ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:694:24: warning: assignment to 'id2_tmp' was never used; assign to '_' instead?
+    var id2_tmp: Int = -1
+                       ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:695:30: warning: assignment to 'dist2_tmp' was never used; assign to '_' instead?
+    var dist2_tmp: Float32 = 0.0
+                             ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:696:25: warning: assignment to 'box2' was never used; assign to '_' instead?
+    var box2 = List[Int]()
+                        ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:699:16: warning: assignment to 'id2_tmp' was never used; assign to '_' instead?
+        id2_tmp, dist2_tmp, box2, prob2 = inferencia_imagem(caminho2, bloco, centroides, altura, largura, tipo, 0.0)
+               ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:699:16: warning: assignment to 'dist2_tmp' was never used; assign to '_' instead?
+        id2_tmp, dist2_tmp, box2, prob2 = inferencia_imagem(caminho2, bloco, centroides, altura, largura, tipo, 0.0)
+               ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:787:39: warning: assignment to 'img_orig' was never used; assign to '_' instead?
+    var img_orig = List[List[Float32]]()
+                                      ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:790:15: warning: assignment to 'img' was never used; assign to '_' instead?
+    var img = img_orig
+              ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/principal.mojo:8:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/e000008_reconhecimento_facial/exemplo.mojo:791:26: warning: assignment to 'scale' was never used; assign to '_' instead?
+    var scale: Float32 = 1.0
+                         ^
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/camadas/cnn/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/camadas/cnn/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/camadas/cnn/cnn.mojo:37:
+Included from /mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/computacao/captura_camadas.mojo:2:
+/mnt/c/PROJETOS/BIONIX/BIONIX-ML-EXEMPLOS/src/computacao/storage_sessao.mojo:69:12: warning: variable 'Exception' was never used, remove it?
+    except Exception:
+           ^
+
+============================================================
+EXECUTANDO EXEMPLOS DO BIONIX
+============================================================
+
+[1/8] Exemplo 1: Testes do Núcleo (exemplo)...
+
+
+[2/8] Exemplo 2: Modelo Linear com CSV e persistência...
+
+
+[3/8] Exemplo 3: Espirais intercaladas com BMP + autograd + MLP...
+
+
+[4/8] Exemplo 4: Reconhecimento de dígitos 0-9 com MLP...
+
+
+[5/8] Exemplo 5: Reconhecimento de dígitos 0-9 com MLP (CUDA)...
+
+
+[6/8] Exemplo 6: Embedding com BPE a partir de .txt...
+
+
+[7/8] Exemplo 7: GPT texto (treino + inferência em conversa/instruções/ferramentas)...
+
+
+[8/8] Exemplo 8: Reconhecimento facial com bloco CNN...
+--- Exemplo e000008: reconhecimento_facial (detector + reconhecedor PoC) ---
+Construindo dataset detector (crops 64 x 100 )...
+Falha ao construir dataset detector. Verifique arquivos e .txt de bboxes.
+
+============================================================
+CONCLUÍDO: EXEMPLOS
+============================================================
+

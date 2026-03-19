@@ -1,0 +1,1 @@
+pixi run mojo run exemplos/principal.mojo > exemplos/e000002_modelo_linear/log.log 2>&1 -debug-level=line-tables

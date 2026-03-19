@@ -1,0 +1,11 @@
+modo: conversa
+inicio: usuario: preciso de ajuda para estudar sem perder foco.
+completar: assistente: vamos usar ciclos de 25 minutos com pausas curtas e metas pequenas por sessao.
+---
+modo: conversa
+inicio: usuario: meu cliente esta ansioso por uma resposta.
+completar: assistente: entendo a urgencia, vou sugerir uma resposta objetiva, empatica e com prazo claro.
+---
+modo: conversa
+inicio: usuario: quero evoluir no projeto sem me sobrecarregar.
+completar: assistente: defina um passo por dia, valide com teste rapido e registre progresso no TODO.

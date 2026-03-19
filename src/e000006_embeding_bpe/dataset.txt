@@ -1,0 +1,4 @@
+bionix aprende com dados de texto.
+embedding com bpe melhora a compactacao de tokens.
+modelos de linguagem usam contexto para prever o proximo token.
+conversa instrucoes e ferramentas podem compartilhar o mesmo vocabulario base.

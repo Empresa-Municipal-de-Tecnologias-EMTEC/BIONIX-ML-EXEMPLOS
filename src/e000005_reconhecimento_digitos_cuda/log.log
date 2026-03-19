@@ -1,0 +1,42 @@
+--- Validação CUDA real antes do treino ---
+Checando dispositivos disponíveis...
+[ 0 ]  0 - Tesla T4
+[ 1 ]  1 - Tesla T4
+GPU detectada: 0 - Tesla T4
+Smoke test vector_add CUDA: OK
+--- Exemplo e000005_cuda: reconhecimento de dígitos (0-9) com MLP ---
+Arquivos split | treino: 2240 | valid: 480 | teste: 480
+Redimensionamento alvo: 32 x 32
+Carregando 2240 imagens...
+  progresso: 500 / 2240
+  progresso: 1000 / 2240
+  progresso: 1500 / 2240
+  progresso: 2000 / 2240
+Carregando 480 imagens...
+Carregando 480 imagens...
+Amostras treino: 2240 | Features: 1024
+Amostras validação: 480 | Amostras teste: 480 | Classes: 10
+Carregando pesos salvos de: exemplos/e000005_reconhecimento_digitos_cuda/pesos_mlp_digits_cuda.txt
+Configuração MLP | Ativação saída: softmax | Perda: cross_entropy
+Epocas: 1500 | Lote: 64 | LR: 0.005 | ReduceOnPlateau: True | FatorReduceLR: 0.5 | PacienciaReduceLR: 5 | LRMinReduce: 0.0001 | InferenciaSomente: False | SalvarCheckpoint: True
+Época 0 | Loss treino médio: 2.4130075 | Loss validação: 2.4063602 | Acc validação: 0.14166667 | LR: 0.005
+Época 1 | Loss treino médio: 2.301019 | Loss validação: 2.335134 | Acc validação: 0.16041666 | LR: 0.005
+Época 2 | Loss treino médio: 2.2711494 | Loss validação: 2.32009 | Acc validação: 0.17916666 | LR: 0.005
+Época 3 | Loss treino médio: 2.2484436 | Loss validação: 2.292671 | Acc validação: 0.16458334 | LR: 0.005
+Época 4 | Loss treino médio: 2.2251067 | Loss validação: 2.2974746 | Acc validação: 0.19375 | LR: 0.005
+Época 5 | Loss treino médio: 2.2117438 | Loss validação: 2.2746682 | Acc validação: 0.15833333 | LR: 0.005
+Época 6 | Loss treino médio: 2.1962867 | Loss validação: 2.277959 | Acc validação: 0.175 | LR: 0.005
+Época 7 | Loss treino médio: 2.1860979 | Loss validação: 2.2676466 | Acc validação: 0.18541667 | LR: 0.005
+Época 8 | Loss treino médio: 2.1802604 | Loss validação: 2.2520063 | Acc validação: 0.19166666 | LR: 0.005
+Época 9 | Loss treino médio: 2.1739872 | Loss validação: 2.2537267 | Acc validação: 0.2125 | LR: 0.005
+Época 10 | Loss treino médio: 2.1684444 | Loss validação: 2.237786 | Acc validação: 0.22083333 | LR: 0.005
+Época 11 | Loss treino médio: 2.1557991 | Loss validação: 2.2449904 | Acc validação: 0.1875 | LR: 0.005
+Época 12 | Loss treino médio: 2.1450312 | Loss validação: 2.251253 | Acc validação: 0.1875 | LR: 0.005
+Época 13 | Loss treino médio: 2.1403565 | Loss validação: 2.26068 | Acc validação: 0.22291666 | LR: 0.005
+Época 14 | Loss treino médio: 2.143405 | Loss validação: 2.2268677 | Acc validação: 0.2 | LR: 0.005
+Época 15 | Loss treino médio: 2.1329594 | Loss validação: 2.2164216 | Acc validação: 0.2 | LR: 0.005
+Época 16 | Loss treino médio: 2.1292892 | Loss validação: 2.2587125 | Acc validação: 0.20833333 | LR: 0.005
+Época 17 | Loss treino médio: 2.1245282 | Loss validação: 2.2663727 | Acc validação: 0.175 | LR: 0.005
+[ReduceLROnPlateau] acc recuou após inércia. LR: 0.005 -> 0.0025
+Época 18 | Loss treino médio: 2.127004 | Loss validação: 2.2555175 | Acc validação: 0.20208333 | LR: 0.0025
+Época 19 | Loss treino médio: 2.0986123 | Loss validação: 2.1963403 | Acc validação: 0.22291666 | LR: 0.0025

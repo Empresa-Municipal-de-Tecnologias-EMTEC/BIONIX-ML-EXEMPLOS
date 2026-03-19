@@ -1,0 +1,2 @@
+pixi run mojo run exemplos/e000008_reconhecimento_facial/exemplo.mojo
+pixi run mojo build exemplos/e000008_reconhecimento_facial/exemplo.mojo -o build/e000008_reconhecimento_facial

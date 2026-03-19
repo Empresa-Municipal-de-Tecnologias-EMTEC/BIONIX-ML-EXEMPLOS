@@ -1,0 +1,35 @@
+============================================================
+EXECUTANDO EXEMPLOS DO BIONIX
+============================================================
+
+[2/2] Exemplo 2: Modelo Linear com CSV e persistência...
+--- Exemplo e000002: modelo linear com Tensor parametrizável ---
+Tipo de computação do tensor: cpu
+Amostras: 9 | Features: 3
+Normalização das entradas: zscore
+Normalização do alvo: zscore
+[debug] Criando camada linear...
+[debug] Camada criada. Iniciando treinamento...
+Treinando modelo linear...
+Época 0 | MSE: 0.9967038
+Época 500 | MSE: 0.57660127
+Época 1000 | MSE: 0.33949003
+Época 1500 | MSE: 0.2056012
+Época 2000 | MSE: 0.12994021
+Época 2500 | MSE: 0.0871255
+Época 3000 | MSE: 0.06284008
+Época 3500 | MSE: 0.04900851
+Época 3999 | MSE: 0.041087553
+Loss final: 0.041087553
+Pesos salvos em: exemplos/e000002_modelo_linear/pesos_linear.txt
+Normalização salva em: exemplos/e000002_modelo_linear/normalizacao_linear.txt
+Modelo recarregado. Bias: 2.232118
+Normalização recarregada. Tipo entradas: zscore | Tipo alvo: zscore
+Inferência normalizada para [area=78, quartos=3, idade=2]: 2.8753798
+Inferência em escala original (preço): 572.64166
+--- Fim do exemplo e000002 ---
+
+============================================================
+CONCLUÍDO: EXEMPLOS
+============================================================
+

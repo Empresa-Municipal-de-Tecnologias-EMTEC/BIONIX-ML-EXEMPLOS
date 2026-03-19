@@ -1,0 +1,2 @@
+mojo run exemplos/e000007_gpt_texto/exemplo.mojo
+mojo build exemplos/e000007_gpt_texto/exemplo.mojo -o build/e000007_gpt_texto

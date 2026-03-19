@@ -1,0 +1,1 @@
+# Exemplo e000002: modelo linear com treino, inferência e persistência

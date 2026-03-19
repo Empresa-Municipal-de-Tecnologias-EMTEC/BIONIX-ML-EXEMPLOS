@@ -1,0 +1,391 @@
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/camadas/mlp/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/camadas/mlp/__init__.mojo:1:
+/mnt/c/PROJETOS/BIONIX-ML/src/camadas/mlp/mlp.mojo:20:22: warning: 'BlocoMLP' value is unused
+        self.__init__(topologia_local^, tipo_computacao_in)
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        _ = 
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/conjuntos/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/conjuntos/__init__.mojo:2:
+/mnt/c/PROJETOS/BIONIX-ML/src/conjuntos/bitmap_supervisionado.mojo:136:6: warning: transfer from an owned value has no effect and can be removed
+    )^
+     ^
+     
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:194:31: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    if not _validar_bmp_bytes(b, False):
+                              ^
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:194:31: note: consider transferring the value with '^'
+    if not _validar_bmp_bytes(b, False):
+                              ^
+                               ^
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:194:31: note: you can copy it explicitly with '.copy()'
+    if not _validar_bmp_bytes(b, False):
+                              ^
+                               .copy()
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:197:50: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    var pixel_array_offset = _bytes_to_uint32_le(b, 10)
+                                                 ^
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:197:50: note: consider transferring the value with '^'
+    var pixel_array_offset = _bytes_to_uint32_le(b, 10)
+                                                 ^
+                                                  ^
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:197:50: note: you can copy it explicitly with '.copy()'
+    var pixel_array_offset = _bytes_to_uint32_le(b, 10)
+                                                 ^
+                                                  .copy()
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:198:36: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    var width = _bytes_to_int32_le(b, 18)
+                                   ^
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:198:36: note: consider transferring the value with '^'
+    var width = _bytes_to_int32_le(b, 18)
+                                   ^
+                                    ^
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:198:36: note: you can copy it explicitly with '.copy()'
+    var width = _bytes_to_int32_le(b, 18)
+                                   ^
+                                    .copy()
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:199:37: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    var height = _bytes_to_int32_le(b, 22)
+                                    ^
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:199:37: note: consider transferring the value with '^'
+    var height = _bytes_to_int32_le(b, 22)
+                                    ^
+                                     ^
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:199:37: note: you can copy it explicitly with '.copy()'
+    var height = _bytes_to_int32_le(b, 22)
+                                    ^
+                                     .copy()
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:200:46: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    var bits_per_pixel = _bytes_to_uint16_le(b, 28)
+                                             ^
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:200:46: note: consider transferring the value with '^'
+    var bits_per_pixel = _bytes_to_uint16_le(b, 28)
+                                             ^
+                                              ^
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:200:46: note: you can copy it explicitly with '.copy()'
+    var bits_per_pixel = _bytes_to_uint16_le(b, 28)
+                                             ^
+                                              .copy()
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/conjuntos/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/conjuntos/__init__.mojo:1:
+/mnt/c/PROJETOS/BIONIX-ML/src/conjuntos/csv_supervisionado.mojo:56:10: warning: transfer from an owned value has no effect and can be removed
+        )^
+         ^
+         
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/conjuntos/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/conjuntos/__init__.mojo:4:
+/mnt/c/PROJETOS/BIONIX-ML/src/conjuntos/lotes_supervisionados.mojo:95:6: warning: transfer from an owned value has no effect and can be removed
+    )^
+     ^
+     
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/conjuntos/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/conjuntos/__init__.mojo:2:
+/mnt/c/PROJETOS/BIONIX-ML/src/conjuntos/bitmap_supervisionado.mojo:39:6: warning: transfer from an owned value has no effect and can be removed
+    )^
+     ^
+     
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:10:34: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    var uv = _bytes_to_uint32_le(b, offset)
+                                 ^
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:10:34: note: consider transferring the value with '^'
+    var uv = _bytes_to_uint32_le(b, offset)
+                                 ^
+                                  ^
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:10:34: note: you can copy it explicitly with '.copy()'
+    var uv = _bytes_to_uint32_le(b, offset)
+                                 ^
+                                  .copy()
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:52:50: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    var pixel_array_offset = _bytes_to_uint32_le(b, 10)
+                                                 ^
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:52:50: note: consider transferring the value with '^'
+    var pixel_array_offset = _bytes_to_uint32_le(b, 10)
+                                                 ^
+                                                  ^
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:52:50: note: you can copy it explicitly with '.copy()'
+    var pixel_array_offset = _bytes_to_uint32_le(b, 10)
+                                                 ^
+                                                  .copy()
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:53:47: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    var dib_header_size = _bytes_to_uint32_le(b, 14)
+                                              ^
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:53:47: note: consider transferring the value with '^'
+    var dib_header_size = _bytes_to_uint32_le(b, 14)
+                                              ^
+                                               ^
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:53:47: note: you can copy it explicitly with '.copy()'
+    var dib_header_size = _bytes_to_uint32_le(b, 14)
+                                              ^
+                                               .copy()
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:54:36: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    var width = _bytes_to_int32_le(b, 18)
+                                   ^
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:54:36: note: consider transferring the value with '^'
+    var width = _bytes_to_int32_le(b, 18)
+                                   ^
+                                    ^
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:54:36: note: you can copy it explicitly with '.copy()'
+    var width = _bytes_to_int32_le(b, 18)
+                                   ^
+                                    .copy()
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:55:37: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    var height = _bytes_to_int32_le(b, 22)
+                                    ^
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:55:37: note: consider transferring the value with '^'
+    var height = _bytes_to_int32_le(b, 22)
+                                    ^
+                                     ^
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:55:37: note: you can copy it explicitly with '.copy()'
+    var height = _bytes_to_int32_le(b, 22)
+                                    ^
+                                     .copy()
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:56:46: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    var bits_per_pixel = _bytes_to_uint16_le(b, 28)
+                                             ^
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:56:46: note: consider transferring the value with '^'
+    var bits_per_pixel = _bytes_to_uint16_le(b, 28)
+                                             ^
+                                              ^
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:56:46: note: you can copy it explicitly with '.copy()'
+    var bits_per_pixel = _bytes_to_uint16_le(b, 28)
+                                             ^
+                                              .copy()
+Included from /mnt/c/PROJETOS/BIONIX-ML/exemplos/principal.mojo:3:
+/mnt/c/PROJETOS/BIONIX-ML/exemplos/e000003_espirais_intercaladas/exemplo.mojo:18:55: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    _ = dados_pkg.gravar_arquivo_binario(caminho_bmp, bytes_bmp)
+                                                      ^~~~~~~~~
+Included from /mnt/c/PROJETOS/BIONIX-ML/exemplos/principal.mojo:3:
+/mnt/c/PROJETOS/BIONIX-ML/exemplos/e000003_espirais_intercaladas/exemplo.mojo:18:55: note: consider transferring the value with '^'
+    _ = dados_pkg.gravar_arquivo_binario(caminho_bmp, bytes_bmp)
+                                                      ^
+                                                               ^
+Included from /mnt/c/PROJETOS/BIONIX-ML/exemplos/principal.mojo:3:
+/mnt/c/PROJETOS/BIONIX-ML/exemplos/e000003_espirais_intercaladas/exemplo.mojo:18:55: note: you can copy it explicitly with '.copy()'
+    _ = dados_pkg.gravar_arquivo_binario(caminho_bmp, bytes_bmp)
+                                                      ^
+                                                               .copy()
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/conjuntos/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/conjuntos/__init__.mojo:4:
+/mnt/c/PROJETOS/BIONIX-ML/src/conjuntos/lotes_supervisionados.mojo:53:6: warning: transfer from an owned value has no effect and can be removed
+    )^
+     ^
+     
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:24:52: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    return arquivo.gravar_arquivo_binario(caminho, dados)
+                                                   ^~~~~
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:24:52: note: consider transferring the value with '^'
+    return arquivo.gravar_arquivo_binario(caminho, dados)
+                                                   ^
+                                                        ^
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:24:52: note: you can copy it explicitly with '.copy()'
+    return arquivo.gravar_arquivo_binario(caminho, dados)
+                                                   ^
+                                                        .copy()
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:111:31: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    return _validar_bmp_bytes(b, True)
+                              ^
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:111:31: note: consider transferring the value with '^'
+    return _validar_bmp_bytes(b, True)
+                              ^
+                               ^
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/dados/__init__.mojo:5:
+/mnt/c/PROJETOS/BIONIX-ML/src/dados/bmp.mojo:111:31: note: you can copy it explicitly with '.copy()'
+    return _validar_bmp_bytes(b, True)
+                              ^
+                               .copy()
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/graficos/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/graficos/__init__.mojo:1:
+/mnt/c/PROJETOS/BIONIX-ML/src/graficos/bmp.mojo:137:42: warning: 'List' is no longer implicitly copyable, because it is O(n) expensive; this warning will be an error in the next release of Mojo
+    return gerar_bmp_24bits_de_grayscale(imagem, largura, altura)
+                                         ^~~~~~
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/graficos/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/graficos/__init__.mojo:1:
+/mnt/c/PROJETOS/BIONIX-ML/src/graficos/bmp.mojo:137:42: note: consider transferring the value with '^'
+    return gerar_bmp_24bits_de_grayscale(imagem, largura, altura)
+                                         ^
+                                               ^
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/graficos/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/graficos/__init__.mojo:1:
+/mnt/c/PROJETOS/BIONIX-ML/src/graficos/bmp.mojo:137:42: note: you can copy it explicitly with '.copy()'
+    return gerar_bmp_24bits_de_grayscale(imagem, largura, altura)
+                                         ^
+                                               .copy()
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/conjuntos/__init__.mojo:1:
+Included from /mnt/c/PROJETOS/BIONIX-ML/src/conjuntos/__init__.mojo:2:
+/mnt/c/PROJETOS/BIONIX-ML/src/conjuntos/bitmap_supervisionado.mojo:78:41: warning: assignment to 'matriz' was never used; assign to '_' instead?
+        var matriz = List[List[Float32]]()
+                                        ^
+
+============================================================
+EXECUTANDO EXEMPLOS DO BIONIX
+============================================================
+
+[1/3] Exemplo 1: Testes do Núcleo (exemplo)...
+
+[2/3] Exemplo 2: Modelo Linear com CSV e persistência...
+
+[3/3] Exemplo 3: Espirais intercaladas com BMP + autograd + MLP...
+--- Exemplo e000003: espirais intercaladas (BMP + autograd + ativações + MLP) ---
+[diag.bmp] arquivo= exemplos/e000003_espirais_intercaladas/dataset/treino/spiral_train_0.bmp  bytes= 110646
+[diag.bmp] válido: w= 192  h= 192  bpp= 24  off= 54  rows_disponiveis= 192 / 192
+[diag.bmp] arquivo= exemplos/e000003_espirais_intercaladas/dataset/treino/spiral_train_1.bmp  bytes= 110646
+[diag.bmp] válido: w= 192  h= 192  bpp= 24  off= 54  rows_disponiveis= 192 / 192
+[diag.bmp] arquivo= exemplos/e000003_espirais_intercaladas/dataset/treino/spiral_train_2.bmp  bytes= 110646
+[diag.bmp] válido: w= 192  h= 192  bpp= 24  off= 54  rows_disponiveis= 192 / 192
+[diag.bmp] arquivo= exemplos/e000003_espirais_intercaladas/dataset/treino/spiral_train_3.bmp  bytes= 110646
+[diag.bmp] válido: w= 192  h= 192  bpp= 24  off= 54  rows_disponiveis= 192 / 192
+[diag.bmp] arquivo= exemplos/e000003_espirais_intercaladas/dataset/treino/spiral_train_4.bmp  bytes= 110646
+[diag.bmp] válido: w= 192  h= 192  bpp= 24  off= 54  rows_disponiveis= 192 / 192
+[diag.bmp] arquivo= exemplos/e000003_espirais_intercaladas/dataset/treino/spiral_train_5.bmp  bytes= 110646
+[diag.bmp] válido: w= 192  h= 192  bpp= 24  off= 54  rows_disponiveis= 192 / 192
+[diag.bmp] arquivo= exemplos/e000003_espirais_intercaladas/dataset/treino/spiral_train_6.bmp  bytes= 110646
+[diag.bmp] válido: w= 192  h= 192  bpp= 24  off= 54  rows_disponiveis= 192 / 192
+[diag.bmp] arquivo= exemplos/e000003_espirais_intercaladas/dataset/treino/spiral_train_7.bmp  bytes= 110646
+[diag.bmp] válido: w= 192  h= 192  bpp= 24  off= 54  rows_disponiveis= 192 / 192
+[diag.bmp] arquivo= exemplos/e000003_espirais_intercaladas/dataset/teste/spiral_test_0.bmp  bytes= 110646
+[diag.bmp] válido: w= 192  h= 192  bpp= 24  off= 54  rows_disponiveis= 192 / 192
+[diag.bmp] arquivo= exemplos/e000003_espirais_intercaladas/dataset/teste/spiral_test_1.bmp  bytes= 110646
+[diag.bmp] válido: w= 192  h= 192  bpp= 24  off= 54  rows_disponiveis= 192 / 192
+[diag.bmp] arquivo= exemplos/e000003_espirais_intercaladas/dataset/teste/spiral_test_2.bmp  bytes= 110646
+[diag.bmp] válido: w= 192  h= 192  bpp= 24  off= 54  rows_disponiveis= 192 / 192
+[diag.bmp] arquivo= exemplos/e000003_espirais_intercaladas/dataset/teste/spiral_test_3.bmp  bytes= 110646
+[diag.bmp] válido: w= 192  h= 192  bpp= 24  off= 54  rows_disponiveis= 192 / 192
+Dataset BMP já existe; reutilizando: exemplos/e000003_espirais_intercaladas/dataset
+Amostras treino: 20136 | Features: 2
+Amostras teste: 10368
+Lotes de treino (epocas x lotes): 7900 | Lotes de teste: 81
+Epocas de treino: 50
+Época 0 | Loss treino médio: 0.31317946 | Loss validação: 0.33072495
+Época 1 | Loss treino médio: 0.31258756 | Loss validação: 0.329605
+Época 2 | Loss treino médio: 0.3107174 | Loss validação: 0.32671294
+Época 3 | Loss treino médio: 0.3086335 | Loss validação: 0.32365277
+Época 4 | Loss treino médio: 0.3069928 | Loss validação: 0.32271495
+Época 5 | Loss treino médio: 0.30605725 | Loss validação: 0.32102472
+Época 6 | Loss treino médio: 0.3039092 | Loss validação: 0.31912774
+Época 7 | Loss treino médio: 0.30139932 | Loss validação: 0.31544772
+Época 8 | Loss treino médio: 0.29780087 | Loss validação: 0.31227705
+Época 9 | Loss treino médio: 0.29520512 | Loss validação: 0.30871338
+Época 10 | Loss treino médio: 0.29168296 | Loss validação: 0.30319318
+Época 11 | Loss treino médio: 0.28553805 | Loss validação: 0.29768702
+Época 12 | Loss treino médio: 0.28033576 | Loss validação: 0.2917646
+Época 13 | Loss treino médio: 0.27463594 | Loss validação: 0.28503424
+Época 14 | Loss treino médio: 0.2694139 | Loss validação: 0.2795303
+Época 15 | Loss treino médio: 0.26505464 | Loss validação: 0.2752077
+Época 16 | Loss treino médio: 0.26127574 | Loss validação: 0.2711334
+Época 17 | Loss treino médio: 0.25675893 | Loss validação: 0.26591733
+Época 18 | Loss treino médio: 0.25277403 | Loss validação: 0.2620232
+Época 19 | Loss treino médio: 0.24988864 | Loss validação: 0.2596154
+Época 20 | Loss treino médio: 0.24723782 | Loss validação: 0.2568711
+Época 21 | Loss treino médio: 0.24464229 | Loss validação: 0.2526202
+Época 22 | Loss treino médio: 0.24124987 | Loss validação: 0.250137
+Época 23 | Loss treino médio: 0.23923637 | Loss validação: 0.24829857
+Época 24 | Loss treino médio: 0.23734662 | Loss validação: 0.24629723
+Época 25 | Loss treino médio: 0.23513047 | Loss validação: 0.24292925
+Época 26 | Loss treino médio: 0.23265407 | Loss validação: 0.24202265
+Época 27 | Loss treino médio: 0.23112351 | Loss validação: 0.24019934
+Época 28 | Loss treino médio: 0.22928585 | Loss validação: 0.23808959
+Época 29 | Loss treino médio: 0.22787993 | Loss validação: 0.23677559
+Época 30 | Loss treino médio: 0.22669582 | Loss validação: 0.23532145
+Época 31 | Loss treino médio: 0.22530805 | Loss validação: 0.2338504
+Época 32 | Loss treino médio: 0.22373241 | Loss validação: 0.23216632
+Época 33 | Loss treino médio: 0.22238591 | Loss validação: 0.230854
+Época 34 | Loss treino médio: 0.22147314 | Loss validação: 0.22967616
+Época 35 | Loss treino médio: 0.22025299 | Loss validação: 0.22854595
+Época 36 | Loss treino médio: 0.21897122 | Loss validação: 0.22707672
+Época 37 | Loss treino médio: 0.21815257 | Loss validação: 0.22665285
+Época 38 | Loss treino médio: 0.21781863 | Loss validação: 0.22631906
+Época 39 | Loss treino médio: 0.21742575 | Loss validação: 0.22551309
+Época 40 | Loss treino médio: 0.21678032 | Loss validação: 0.22489117
+Época 41 | Loss treino médio: 0.21627143 | Loss validação: 0.22423545
+Época 42 | Loss treino médio: 0.2158847 | Loss validação: 0.22417133
+Época 43 | Loss treino médio: 0.21583274 | Loss validação: 0.22413749
+Época 44 | Loss treino médio: 0.21580863 | Loss validação: 0.22411485
+Época 45 | Loss treino médio: 0.21578741 | Loss validação: 0.22408998
+Época 46 | Loss treino médio: 0.21576904 | Loss validação: 0.22406065
+Época 47 | Loss treino médio: 0.21573289 | Loss validação: 0.22404085
+Época 48 | Loss treino médio: 0.21570396 | Loss validação: 0.2240414
+Época 49 | Loss treino médio: 0.21565266 | Loss validação: 0.22400016
+Loss final: 0.15359148
+Acurácia treino: 0.685737
+Acurácia teste: 0.66878855
+Acurácia de predição entre A e B (treino): 0.685737
+Acurácia de predição entre A e B (teste): 0.66878855
+--- Fim do exemplo e000003 ---
+
+============================================================
+CONCLUÍDO: EXEMPLOS
+============================================================
+

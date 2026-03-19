@@ -1,0 +1,9 @@
+conversa|usuario: ola, preciso de ajuda para montar um plano de estudo.|assistente: claro, posso montar um plano semanal com metas pequenas e revisoes.
+conversa|usuario: estou cansado, nao consigo focar.|assistente: vamos simplificar, faca 25 minutos de foco e 5 de pausa.
+conversa|usuario: preciso responder meu cliente com empatia.|assistente: entendo sua urgencia, vou te ajudar com uma resposta objetiva e cordial.
+instrucoes|resuma em uma frase o objetivo do projeto.|objetivo: entregar um framework modular de ml com foco em desempenho e extensibilidade.
+instrucoes|gere uma checklist de validacao para release.|checklist: testes, benchmark, documentacao, exemplos, changelog e rollback.
+instrucoes|explique o que e kv cache em linguagem simples.|kv cache guarda contexto para evitar recalcular atencao token a token.
+ferramentas|quero listar arquivos de um diretorio no windows.|use a ferramenta de terminal com Get-ChildItem no caminho alvo.
+ferramentas|como validar se o backend cuda esta ativo?|execute o smoke test cuda e verifique nome da gpu detectada.
+ferramentas|preciso buscar simbolos no workspace.|use busca semantica para contexto e busca textual para ocorrencias exatas.

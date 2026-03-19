@@ -1,0 +1,2 @@
+mojo run exemplos/e000006_embeding_bpe/exemplo.mojo
+mojo build exemplos/e000006_embeding_bpe/exemplo.mojo -o build/e000006_embeding_bpe

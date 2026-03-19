@@ -1,0 +1,48 @@
+pixi run mojo run exemplos/e000005_reconhecimento_digitos_cuda/principal.mojo
+
+pixi run mojo run exemplos/e000005_reconhecimento_digitos_cuda/principal.mojo >> exemplos/e000005_reconhecimento_digitos_cuda/log.log 2>&1
+
+pixi run mojo run exemplos/e000005_reconhecimento_digitos_cuda/principal.mojo 2>&1 >/dev/null | grep -i "error:" > exemplos/e000005_reconhecimento_digitos_cuda/log.log
+
+# Kaggle (Notebook com Internet=On e Accelerator=GPU)
+
+# 1) Clonar repositório (ou atualizar com pull se já existir)
+if [ -d BIONIX-ML/.git ]; then
+	cd BIONIX-ML && git pull --ff-only
+else
+	git clone https://github.com/Empresa-Municipal-de-Tecnologias-EMTEC/BIONIX-ML.git
+	cd BIONIX-ML
+fi
+
+# 2) Instalar pixi no Linux do Kaggle
+curl -fsSL https://pixi.sh/install.sh | bash
+export PATH="$HOME/.pixi/bin:$PATH"
+pixi --version
+
+# 3) Instalar ambiente do projeto
+pixi install
+
+# 4) Executar exemplo 5 (CUDA)
+pixi run mojo run exemplos/e000005_reconhecimento_digitos_cuda/principal.mojo
+
+
+
+#Compilacao
+
+pixi run mojo build -O0 exemplos/e000005_reconhecimento_digitos_cuda/principal.mojo -o exemplos/e000005_reconhecimento_digitos_cuda/bin/e000005_cuda
+
+# Garantir permissao de execucao no binario
+chmod +x exemplos/e000005_reconhecimento_digitos_cuda/bin/e000005_cuda
+
+# Executar binario compilado
+export MODULAR_HOME="$PWD/.pixi/envs/default/share/max"
+export LD_LIBRARY_PATH="$PWD/.pixi/envs/default/lib:${LD_LIBRARY_PATH}"
+./exemplos/e000005_reconhecimento_digitos_cuda/bin/e000005_cuda
+
+!chmod +x BIONIX-ML/exemplos/e000005_reconhecimento_digitos_cuda/bin/e000005_cuda ./BIONIX-ML/exemplos/e000005_reconhecimento_digitos_cuda/bin/e000005_cuda
+
+# Linha de execução para despejar a saída no log geral
+
+pixi run mojo run exemplos/e000005_reconhecimento_digitos_cuda/principal.mojo >> exemplos/log.log 2>&1
+
+pixi run mojo run exemplos/e000005_reconhecimento_digitos_cuda/principal.mojo 2>&1 >/dev/null | grep -i "error:" > exemplos/log.log
