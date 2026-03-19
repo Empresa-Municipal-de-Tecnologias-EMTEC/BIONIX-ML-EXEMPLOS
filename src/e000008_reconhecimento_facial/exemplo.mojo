@@ -341,6 +341,10 @@ fn executar_exemplo() raises:
     print("--- Exemplo e000008: reconhecimento_facial (detector + reconhecedor PoC) ---")
 
     var dir_dataset = "exemplos/e000008_reconhecimento_facial/dataset"
+    # fallback: se a estrutura atual usa o dataset ao lado do código, use o dataset local
+    if not os.path.isdir(dir_dataset):
+        # fallback simples: usar caminho relativo ao diretório de execução (./e000008_reconhecimento_facial/dataset)
+        dir_dataset = "e000008_reconhecimento_facial/dataset"
     var dir_treino = os.path.join(dir_dataset, "treino")
     var dir_teste = os.path.join(dir_dataset, "teste")
 

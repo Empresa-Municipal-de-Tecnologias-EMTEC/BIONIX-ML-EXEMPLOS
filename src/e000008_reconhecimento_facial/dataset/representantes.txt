@@ -1,5 +1,5 @@
-exemplos/e000008_reconhecimento_facial/dataset/treino/0/0.bmp
-exemplos/e000008_reconhecimento_facial/dataset/treino/1/0.bmp
-exemplos/e000008_reconhecimento_facial/dataset/treino/2/0.bmp
-exemplos/e000008_reconhecimento_facial/dataset/treino/3/0.bmp
-exemplos/e000008_reconhecimento_facial/dataset/treino/4/0.bmp
+e000008_reconhecimento_facial/dataset/treino/0/0.bmp
+e000008_reconhecimento_facial/dataset/treino/1/0.bmp
+e000008_reconhecimento_facial/dataset/treino/2/0.bmp
+e000008_reconhecimento_facial/dataset/treino/3/0.bmp
+e000008_reconhecimento_facial/dataset/treino/4/0.bmp
