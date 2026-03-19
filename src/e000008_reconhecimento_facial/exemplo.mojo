@@ -1,5 +1,5 @@
 import src.camadas.cnn as cnn_pkg
-import src.computacao as computacao_pkg
+import ../../BIONIX-ML/src.computacao as computacao_pkg
 import src.dados as dados_pkg
 import src.graficos as graficos_pkg
 import src.nucleo.Tensor as tensor_defs
