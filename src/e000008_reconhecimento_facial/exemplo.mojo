@@ -1,9 +1,9 @@
-import src.camadas.cnn as cnn_pkg
-import ../../BIONIX-ML/src.computacao as computacao_pkg
-import src.dados as dados_pkg
-import src.graficos as graficos_pkg
-import src.nucleo.Tensor as tensor_defs
-import src.uteis as uteis
+import bionix_ml.camadas.cnn as cnn_pkg
+import bionix_ml.computacao as computacao_pkg
+import bionix_ml.dados as dados_pkg
+import bionix_ml.graficos as graficos_pkg
+import bionix_ml.nucleo.Tensor as tensor_defs
+import bionix_ml.uteis as uteis
 import os
 import math
 
