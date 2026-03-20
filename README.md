@@ -31,16 +31,29 @@ Este repositório agrupa exemplos práticos que demonstram funcionalidades do `B
 
 ## Como executar
 
-1. Garanta que o repositório `BIONIX-ML` esteja clonado no mesmo diretório-pai.
-2. Abra uma sessão Linux/WSL e navegue até `BIONIX-ML-EXEMPLOS/src`.
-3. Execute os exemplos com `pixi`/`mojo` (exemplo):
+Importante: para usar imports do tipo `import src.*` sem ajustes, este repositório deve estar clonado como diretório irmão do `BIONIX-ML` (mesmo diretório-pai). Alternativamente, ajuste o `mojoproject.toml` da sua cópia para apontar para a pasta correta do `BIONIX-ML` (ex.: `path = "../BIONIX-ML/src"`) ou empacote e instale `BIONIX-ML` como `.mojopkg` em `.pixi/envs/default/lib/mojo`.
+
+Passos para executar (WSL/Linux recomendado):
 
 ```bash
 cd BIONIX-ML-EXEMPLOS/src
-pixi run mojo principal.mojo
+# compila (comando de conveniência configurado em pixi)
+pixi run compilar
+
+# executa e captura logs
+pixi run executar > log.log 2>&1
+
+# verificar logs
+cat log.log
 ```
 
-Observação: alguns exemplos dependem de módulos do `BIONIX-ML/src` e de datasets locais; verifique cada pasta de exemplo para instruções específicas.
+Se preferir executar sem redirecionamento de logs, rode:
+
+```bash
+pixi run executar
+```
+
+Observação: alguns exemplos dependem de datasets locais; verifique a pasta do exemplo para instruções específicas.
 
 ## Licença
 
