@@ -1,16 +1,3 @@
-# Ignorar symlinks criados localmente para o core BIONIX-ML
-# Esses diretórios normalmente são symlinks apontando para o repositório irmão
-
-/src/ativacoes/
-/src/autograd/
-/src/camadas/
-/src/computacao/
-/src/conjuntos/
-/src/dados/
-/src/graficos/
-/src/nucleo/
-/src/perdas/
-/src/uteis/
-
-# Se você criou um script local para criar symlinks, pode mantê-lo comitado.
-# Para remover os symlinks já comitados, execute os comandos sugeridos no README ou abaixo.
+# pixi environments
+.pixi/*
+!.pixi/config.toml
