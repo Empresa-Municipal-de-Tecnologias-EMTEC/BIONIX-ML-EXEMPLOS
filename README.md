@@ -31,7 +31,7 @@ Este repositório agrupa exemplos práticos que demonstram funcionalidades do `B
 
 ## Como executar
 
-Importante: para usar imports do tipo `import src.*` sem ajustes, este repositório deve estar clonado como diretório irmão do `BIONIX-ML` (mesmo diretório-pai). Alternativamente, ajuste o `mojoproject.toml` da sua cópia para apontar para a pasta correta do `BIONIX-ML` (ex.: `path = "../BIONIX-ML/src"`) ou empacote e instale `BIONIX-ML` como `.mojopkg` em `.pixi/envs/default/lib/mojo`.
+Importante: para usar imports do tipo `import src.*` sem ajustes, este repositório deve estar clonado como diretório irmão do `BIONIX-ML` (mesmo diretório-pai). Alternativamente, ajuste o `pixi.toml` da sua cópia para apontar para a pasta correta do `BIONIX-ML` (ex.: `path = "../BIONIX-ML/src"`) ou empacote e instale `BIONIX-ML` como `.mojopkg` em `.pixi/envs/default/lib/mojo`.
 
 Passos para executar (WSL/Linux recomendado):
 
