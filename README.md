@@ -31,7 +31,23 @@ Este repositório agrupa exemplos práticos que demonstram funcionalidades do `B
 
 ## Como executar
 
-Importante: para usar imports do tipo `import src.*` sem ajustes, este repositório deve estar clonado como diretório irmão do `BIONIX-ML` (mesmo diretório-pai). Alternativamente, ajuste o `pixi.toml` da sua cópia para apontar para a pasta correta do `BIONIX-ML` (ex.: `path = "../BIONIX-ML/src"`) ou empacote e instale `BIONIX-ML` como `.mojopkg` em `.pixi/envs/default/lib/mojo`.
+Importante: a forma oficialmente suportada para consumir o `BIONIX-ML` a partir deste repositório é declarar a dependência via `pixi.toml` e importar os módulos usando o namespace `bionix_ml`.
+
+Exemplo (no `pixi.toml` do projeto consumidor):
+
+```toml
+[dependencies]
+bionix_ml = { path = "../BIONIX-ML" }
+```
+
+Exemplo de import nos módulos Mojo:
+
+```mojo
+import bionix_ml.dados as dados_pkg
+import bionix_ml.computacao as computacao_pkg
+```
+
+Compatibilidade legada: se você tiver código que ainda usa `import src.*`, é possível apontar temporariamente `pixi.toml` para `../BIONIX-ML/src`, mas essa não é a forma recomendada; migre para `bionix_ml.*`.
 
 Passos para executar (WSL/Linux recomendado):
 
